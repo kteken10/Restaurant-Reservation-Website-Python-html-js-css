@@ -9,7 +9,7 @@ CSS pour l'affichage des menu et images */
   }
 
   .menu-item img {
-    width: 290px;
+    width: 320px;
     height: 250px;
     object-fit: cover;
     border-radius: 20%;
@@ -57,3 +57,4 @@ form {
     left: 0;
     width: 100%;
   }
+
