@@ -1,0 +1,59 @@
+/* 
+CSS pour l'affichage des menu et images */
+ .image-padding {
+    margin-top: 20px; 
+  }
+  
+  .menu-item {
+    text-align: center;
+  }
+
+  .menu-item img {
+    width: 290px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+  }
+
+  .menu-item h3 {
+    margin-bottom: 5px;
+  }
+
+
+/* CSS pour les formulair */
+/* Style général des formulaires */
+form {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  /* Style du formulaire de connexion */
+  #loginCard {
+    display: block;
+  }
+  
+  /* Style du formulaire d'inscription */
+  #registerCard {
+    display: none;
+  }
+  
+  /* Animation de glissement lors du changement de formulaire */
+  .sliding-forms > div {
+    transition: all 0.3s ease;
+  }
+  
+  .sliding-forms {
+    position: relative;
+  }
+  .sliding-forms > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }

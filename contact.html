@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+ <!-- Liens vers les fichiers CSS de Bootstrap et Font Awesome -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <script src="js/all.js"></script>
+ 
+ <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Restaurant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reservations.html"><i class="fas fa-calendar-alt"></i> Réservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html"><i class="fas fa-utensils"></i> Menu</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user"></i> Authentification</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenu de la page -->
+  <div class="container">
+    <h1>Contactez-nous</h1>
+    <p>Pour toute demande ou question, n'hésitez pas à nous contacter :</p>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Informations de contact :</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Adresse : 123 Rue du Restaurant, Ville, Pays</p>
+        <p><i class="fas fa-phone"></i> Téléphone : +123 456 789</p>
+        <p><i class="fas fa-envelope"></i> Email : info@restaurant.com</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Formulaire de contact :</h3>
+        <form>
+          <div class="form-group">
+            <label for="name"><i class="fas fa-user"></i> Nom</label>
+            <input type="text" class="form-control" id="name" placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre email">
+          </div>
+          <div class="form-group">
+            <label for="message"><i class="fas fa-comment"></i> Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Votre message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Liens vers les fichiers JavaScript de Bootstrap (jQuery et Popper.js requis) -->
+  <script src="js/jquery-3.1.7.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+   
+</body>
+</html>
